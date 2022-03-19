@@ -6,3 +6,13 @@ npm start 명령어 : start script 실행되어 3000번 포트에서 리액트 app이 돌아가게 �
 element란? 
 > reacct app을 구성하는 가장 작은 블럭,
 > 화면에서 보이는 것을 기술한다.
+> element가 생성된 후에는 children이나 attribute를 바꿀 수 없다.
+
+element를 DOM에 렌더링하는 방법
+> react 만으로 만들어진 root node는
+react element를 렌더링할 html을 root dom node라고 한다
+dom에 의해 관리되기 때문이다.
+오직 react 만으로 만들어진 app은 단 하나의 root dom node를 갖게 된다.
+기존에 있던 app에 react를 연동하게 되면 여러 개의 root dom node를 가질 수도 있다.
+
+rendering 된 element를 update하는 방법

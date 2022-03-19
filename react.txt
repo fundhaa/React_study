@@ -1,0 +1,10 @@
+react component의 입력 : Props
+react component의 출력 : React element(react를 구성하는 가장 작은 빌딩 블럭)
+
+객체지향에서 class 와 instance의 개념과 비슷함.
+> component 의 개념은 붕어빵 틀을 의미한다.
+> 각 붕어빵은 element를 의미한다.
+> Props(팥, 슈크림, 고구마 등)를 넣어주면 각기 다른 element가 나온다.
+
+Props (Property의 준말)
+Component의 Props : 컴포넌트의 속성
